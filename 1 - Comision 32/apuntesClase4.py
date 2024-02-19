@@ -1,3 +1,4 @@
+# introducción a POO
 """
 class Biblioteca
     class Libros
@@ -10,21 +11,6 @@ class Biblioteca
         nombre, apellido, dni, tdc, listas (compras, libros)
     class Ventas
         lista ventas ()
-
-"""
-
-
-
-
-
-
-
-
-
-
-
-
-"""
 
 class VEHICULO
     mostrar vehiculo
