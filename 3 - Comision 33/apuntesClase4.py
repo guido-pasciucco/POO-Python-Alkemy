@@ -131,5 +131,3 @@ auto2.cambiarEstadoMotor()
 
 auto3.mostrarAuto()
 auto3.cambiarEstadoMotor()
-
-auto3.
