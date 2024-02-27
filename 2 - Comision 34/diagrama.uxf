@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><element><id>UMLClass</id><coordinates><x>228</x><y>24</y><w>252</w><h>168</h></coordinates><panel_attributes>Empleado
+--
+- String DNI
+- String nombre
+- String apellido
+- int anioDeIngreso
+- TipoContrato tipoContrato
+--
++ mostrarSalario pass</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>72</x><y>252</y><w>252</w><h>168</h></coordinates><panel_attributes>EmpleadoComision
+--
+- float salarioMinimo
+- int clientesCaptados
+- float montoPorCliente
+--
++ empleadoConMasClientes()
++ mostrarSalario()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>252</y><w>252</w><h>168</h></coordinates><panel_attributes>EmpleadoFijo
+--
+- float sueldoBasico
+- float porcentajeAdicional
+- Antiguedad antiguedad
+--
++ mostrarSalario()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>180</y><w>36</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>276</x><y>180</y><w>36</w><h>96</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>624</x><y>72</y><w>144</w><h>96</h></coordinates><panel_attributes>&lt;Enum&gt;
+TipoContrato
+--
+COMI = "Comision"
+FIJO = "Sueldo Fijo"</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>120</y><w>180</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>732</x><y>252</y><w>204</w><h>108</h></coordinates><panel_attributes>&lt;Enum&gt;
+Antiguedad
+--
+CAT1 = "Menos de 2 anios"
+CAT2 = "De 2 a 5 anios"
+CAT3 = "Mas de 5 anios"</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>636</x><y>300</y><w>120</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element></diagram>
