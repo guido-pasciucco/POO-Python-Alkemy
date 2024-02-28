@@ -1,3 +1,17 @@
+
+
+""" fabrica de instrumentos musicales
+la fabrica tiene multiples sucursales
+
+Fabrica
+- Sucursales sucursales = []
+
+Sucursal 
+- Instrumento instrumentos = []
++ agregarInstrumento
+
+"""
+
 class Estudiante:
     def __init__(self, nombre, edad):
         self.nombre = nombre
@@ -16,9 +30,9 @@ class Estudiante:
 estudiante1 = Estudiante("Juan", 20)
 
 # Agregar algunas calificaciones
-estudiante1.agregar_calificacion(30)
-estudiante1.agregar_calificacion(85)
-estudiante1.agregar_calificacion(95)
+estudiante1.agregar_calificacion(8)
+estudiante1.agregar_calificacion(10)
+estudiante1.agregar_calificacion(7)
 
 # Obtener el promedio de las calificaciones
-print("Promedio de calificaciones:", estudiante1.promedio_calificaciones())
+print("Promedio: ", estudiante1.nombre , round(estudiante1.promedio_calificaciones(), 2))
