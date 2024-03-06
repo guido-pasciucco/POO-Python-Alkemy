@@ -18,3 +18,5 @@ las clases con sus atributos, métodos y relaciones (los constructores pueden om
     sucursal y retorne los porcentajes de instrumentos por tipo que hay para tal sucursal.
 
 
+sucursal1.porcInstrumentosPorTipo()
+porcInstrumentosPorTipo(sucursal1)

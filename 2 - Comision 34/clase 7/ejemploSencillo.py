@@ -1,8 +1,11 @@
+# listas y POO
+
 class Estudiante:
-    def __init__(self, nombre, edad): # NECESARIOS EN LA INVOCACIÓN DE Estudiante()
+
+    def __init__(self, nombre, edad): 
         self.nombre = nombre
         self.edad = edad
-        self.calificaciones = [] # PUEDE SER DEFINIDO POSTERIORMENTE - SIGUE SIENDO UN ATTR DE Estudiante
+        self.calificaciones = []
 
     def agregar_calificacion(self, calificacion):
         self.calificaciones.append(calificacion)
@@ -17,7 +20,7 @@ class Estudiante:
 estudiante1 = Estudiante("Juan", 20)
 
 # agregando calificaciones
-estudiante1.agregar_calificacion(8)
+estudiante1.agregar_calificacion(8) # acá inicializo calificaciones
 estudiante1.agregar_calificacion(10)
 estudiante1.agregar_calificacion(7)
 
