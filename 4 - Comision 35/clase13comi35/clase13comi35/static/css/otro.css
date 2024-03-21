@@ -1,0 +1,18 @@
+h2 {
+    color: rgb(177, 37, 220);    
+}
+
+p {
+    color: gray;
+    text-align: center;
+}
+
+li{
+    color: red;
+}
+
+/* 
+
+HOJAS DE ESTILO EN CASCADA
+
+*/

@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>                                          
+<body>
+    <h1>Titulo de mi template</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aspernatur odit debitis blanditiis. Hic libero sunt vitae sint aliquam! Ex illum incidunt reiciendis quam repellat nisi laborum voluptatum nostrum eveniet!</p>
+    <script src="{% static 'js/app.js' %}"></script>
+    {% include 'extras/lista.html' %}
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
