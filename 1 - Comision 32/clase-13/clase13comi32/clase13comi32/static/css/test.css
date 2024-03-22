@@ -1,0 +1,21 @@
+* {
+    background-color: bisque !important;
+}
+
+h1{
+    color:red !important;
+}
+
+h3{
+    color: blue !important;
+}
+
+/*
+    lo más liviano
+        - body / * 
+        - tags
+        - clases (.) .card
+        - id (#) #barraBusqueda
+        - !important 
+    lo más fuerte
+*/

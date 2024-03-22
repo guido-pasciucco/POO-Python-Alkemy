@@ -1,0 +1,10 @@
+*{
+    text-align: center !important;
+}
+
+#task{
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black
+}

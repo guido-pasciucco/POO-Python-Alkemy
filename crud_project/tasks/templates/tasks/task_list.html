@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+    <script src="./styles/task_list.css"></script>
+</head>
+<body>
+    <style>
+        *{text-align: center;}
+    </style>
+    <h1>LISTA DE TAREAS</h1>
+    {% for task in tasks %}
+        <div id="task">
+            <p href="{% url 'task_detail' task.id %}">{{ task.title }}</p>
+        </div>
+    {% endfor %}
+    <a href="{% url 'task_create' %}">Create New Task</a>
+</body>
+</html>

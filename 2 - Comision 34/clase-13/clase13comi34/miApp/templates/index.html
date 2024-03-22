@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+    <h1>Practicando archivos estaticos</h1>
+    <h3>{{condicion}}</h3>
+
+    {% if condicion %}
+        {% include "lista.html" %}
+        {% block content %}
+
+        {% endblock %}
+    {% else %}
+        {% include "otra_lista.html" %}
+        {% block content1 %}
+
+        {% endblock %}
+    {% endif %}
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempora ab ut voluptatum mollitia facere, in labore fuga facilis, ullam natus sint inventore laborum aliquam eligendi placeat nesciunt? At, in!</h3>
+</body>
+</html>

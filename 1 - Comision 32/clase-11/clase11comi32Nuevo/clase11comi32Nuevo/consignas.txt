@@ -1,0 +1,17 @@
+Configurar el tablero de Admin
+de nuestro proyecto
+
+- retomar algún proyecto anterior
+(ejercio, propio, nuevo)
+- configurarle el admin 
+- permitir que se realice CRUD desde el admin
+
+- gestionEstudiantes
+
+nombre, apellido, edad, nota
+C - crear nuevos estudiantes
+R - leer la cantidad de estudiantes total + poder filtrar
+U - Actualizar datos de los estudiantes 
+D - poder borrar uno o más estudiantes 
+TODO A TRAVÉS DE EL TABLERO DE ADMINISTRADOR
+Hacer bien las conexiones desde tu código Django

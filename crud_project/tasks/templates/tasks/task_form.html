@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Form</title>
+</head>
+<body>
+    <h1>Create/Update Task</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title" value="{% if task %}{{ task.title }}{% endif %}"><br>
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description">{% if task %}{{ task.description }}{% endif %}</textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="{% url 'task_list' %}">Cancel</a>
+</body>
+</html>

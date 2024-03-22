@@ -1,0 +1,9 @@
+*{
+    text-align: center;
+}
+#div_alerta{
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+    border: 2px solid black
+}

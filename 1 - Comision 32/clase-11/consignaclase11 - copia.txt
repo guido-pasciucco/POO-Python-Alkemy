@@ -1,0 +1,18 @@
+EJERCICIO CLASE 11 - 20:55 cerramos la clase - mini devolución
+Entrega - Link de Github
+
+1.  Retomar un proyecto anterior de Django
+(GestionEstudiantes, uno nuevo, crud clase pasada (Usuarios))
+Mientras tenga al menos 1 modelo alcanza
+
+2. Adaptarlo para poder trabajarlo a través de el ADMIN
+- crearse un SUPERUSUARIO - python manage.py createsuperuser
+- integrar (registrar) nuestro modelo en el ADMIN
+- crear un modeloAdmin - para adaptar mejor el modelo al admin
+    - con List_display - visualizar mejor nuestra(s) tabla(s)
+    - con search_fields - campo de busqueda 
+
+Objetivo
+- Simplificar y Optimizar el CRUD
+
+

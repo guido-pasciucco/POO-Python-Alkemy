@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 100,
+            "driver": "SQLite",
+            "name": "test",
+            "database": "${workspaceFolder:clase9comi33}/db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "example",
+            "database": "${workspaceFolder:clase9comi33}/Ejemplobasedatos.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

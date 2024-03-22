@@ -1,0 +1,25 @@
+<div>
+    <h4>Prueba</h4>
+    {% for estudiante in estudiantes %}
+    <h3>{{estudiante.nombre}}</h3>
+    {% if estudiante.cursos_realizados %}
+    <p>Cursos realizados:</p>
+    <div style="display: flex; justify-content: space-evenly;margin: 40px;">
+        {% for curso in estudiante.cursos_realizados %}
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{curso.titulo}}</h5>
+                <p class="card-text">{{curso.desc}}</p>
+                <a href="#" class="btn btn-primary">Ver curso</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p style="color: red;">
+        No realizaste ningun curso, anotate en alguno!
+    </p>
+    {% endif %}
+    <hr>
+    {% endfor %}
+</div>

@@ -1,0 +1,18 @@
+EJERCICIO CLASE 12
+
+1. Partiendo de o un proyecto nuevo de Django o uno anterior
+(Crud proyect, ejercicio de clase anterior, live coding de clase anterior)
+
+2. Crear / modifiquen las views trabajando los objetos
+Template
+Context
+from django.template import Template, Context
+
+
+3. En las plantillas
+- aplicar Condicionales (if, else, elif)
+- aplicar Bucles (for... in)
+- aplicamos correctamente dot notation para referirnos a elementos de un dictionary
+- Extra - aplicar Bootstrap 
+    - Ejemplo: Crear una card por cada elemento de la lista de objetos
+
